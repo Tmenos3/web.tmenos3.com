@@ -9,10 +9,15 @@
 }*/
 
 .App-header {
-  background-color: black;
-  height: 150px;
+  background-color: #222;
+  height: 20px;
   padding: 20px;
-  color: white;
+  flex-direction: row;
+}
+
+.App-body {
+  background-color: black;
+  flex-grow: 1;
 }
 
 /*.App-intro {
